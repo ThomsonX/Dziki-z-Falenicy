@@ -1,0 +1,62 @@
+body {
+    margin: 5px;
+}
+
+#content {
+    width: 40%;
+    margin: 0 auto;
+}
+
+
+#dzik {
+    position: relative;
+    display: inline-block;
+}
+
+#dzik img {
+    width: 100%;
+     display: block;
+     border-radius: 25px;
+}
+
+#cyferka {
+    position: absolute;
+    left: 30%;
+    top: 35%;
+    
+    color: rgb(94, 255, 0);
+    font-size: 108px;
+
+}
+
+#przycisk {
+    margin-top: 20px;
+    cursor: pointer;
+    margin-inline:  auto;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    justify-self: center;
+    position: relative;
+    background-color: beige;
+    box-sizing: border-box;
+    border: 8px solid black;
+    border-radius: 25px;
+    font-size: 120px;
+    text-align: center;
+}
+
+#przycisk:hover {
+    background-color: rgb(226, 226, 226);
+}
+
+#options {
+    display: flex;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+#wynik {
+    font-size: 48px;
+    margin-left: 20px;
+}

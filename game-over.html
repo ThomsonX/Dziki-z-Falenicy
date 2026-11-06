@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dziki z Falenicy cierpią na brak miłości</title>
+    <style>
+        body {
+            margin-inline: 25px;
+            background-color: red;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1 {
+            font-size: 100px;
+        }
+
+        h2 {
+            font-size: 45px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            background-color: darkred;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        a:hover {
+            background-color: rgb(143, 56, 56);
+        }
+    </style>
+</head>
+<body>
+    <h1>:(</h1>
+    <h2>Przegrałeś</h2>
+    <h3 id="score">Twój wynik: 0</h3>
+    <p>Dziki z Falenicy cierpią na brak miłości</p>
+    <a href="index.html">Spróbuj ponownie</a>
+
+    <script>
+        const score = sessionStorage.getItem("score");
+        console.log(score);
+        document.getElementById("score").textContent = `Twój wynik: ${score}`;
+    </script>
+</body>
+</html>
